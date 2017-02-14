@@ -1,6 +1,7 @@
 ### What is the difference between `PATH` and `CLASSPATH`?                
 
-* CLASSPATH: Classpath describe the location where required `.class` files are available. Java compiler and JVM uses it. If we are not setting class path program may not be compile and ru*
+* CLASSPATH: Classpath is an environment variable which is used by the Java compiler to find the path, of classes. ie .class files. In J2EE we give the path of jar files. 
+Example: To connect mysql database from our java program we need `mysql-connector.jar` and to run our program we must add this jar file location in classpath variable.
 
 * PATH: Path is an environment variable which is used by the operating system to find the executables.                                     
 Example:
